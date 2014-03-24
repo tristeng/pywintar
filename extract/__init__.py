@@ -29,6 +29,6 @@ def extract(infile, outfile, verbose):
     else:
         outfile = os.path.split(infile)[0]
     if verbose:
-        print "Extracting '%s' to %s" % (infile, outfile)
+        print "Extracting '%s' to %s" % (infile, outfile or "current working directory")
     with tarfile.open(infile) as tar:
         tar.extractall(path=outfile)

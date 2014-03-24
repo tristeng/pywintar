@@ -41,3 +41,6 @@ nosetests.xml
 # testing
 test/out
 test/*.tar*
+
+# InnoSetup output
+innosetup/Output
