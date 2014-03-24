@@ -38,7 +38,7 @@ Installation
 * [Microsoft Visual C++ Redistributable Package](http://www.microsoft.com/download/en/details.aspx?id=29) if you have
 MS Visual Studio installed, you likely already have this
 
-Download an installer from the releases page and run it or you can build a installer your self:
+Download an installer from the releases page and run it or you can build an installer yourself:
 
 1. clone the repository
 2. build the application with [cx_Freeze](http://cx-freeze.sourceforge.net/)
